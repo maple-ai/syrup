@@ -1,13 +1,13 @@
 Open source go package to enhance gorilla/mux
 
-##Features
+## Features
 - Middleware
 - Convenience .get, .post, ...
 - Sub-routing, sub-middleware declarations
 
-##Demo Usage
+## Demo Usage
 
-```
+```go
 r := syrup.New(mux.NewRouter())
 
 // Authentication
